@@ -1,64 +1,40 @@
-/* Footer Style */
+body {
+    background-color: blueviolet;
+}
 
-footer {
-    background-color: #f8f9fa;
-    padding: 20px 0;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+.container-fluid {
+    margin-top: 20px;
+  }
+
+  .card {
+    background-color: rgba(255, 255, 255, 0.5);
   }
   
-  /* Hover effect */
-  footer p:hover {
-    color: #007bff; /
+  #custom-navbar {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+
+  #jumbotron {
+    margin-bottom: 20px; 
   }
   
- /*  Social media icons */
+  #work-section {
+    margin-bottom: 40px; 
+  }
+  
+  #skills-section {
+    margin-bottom: 40px; 
+  }
+  
+  #aboutme-section {
+    margin-bottom: 40px; 
+  }
+  
+  #footer {
+    padding-top: 20px;
+  }
+  
   footer .list-inline-item {
-    margin: 0 10px;
-    font-size: 24px;
-  }
-  
-  footer .list-inline-item a {
-    color: #212529;
-  }
-  
-  footer .list-inline-item a:hover {
-    color: #007bff; /
-  }
-
-/* Nav Bar  */
-.navbar-brand {
-    color: #fff; 
-    font-size: 24px; 
-  }
-  
-  .navbar-toggler-icon {
-    color: #fff; 
-  }
-  
-/* Navbar link style */
-  .navbar-nav .nav-link {
-    color: #fff; 
-  }
-  
-/* Hover effect for navbar links */
-  .navbar-nav .nav-link:hover {
-    color: #ccc; 
-  }
-  
-/* Sticky navbar background color  */
-  .sticky-top {
-    background-color: #343a40 !important;
-  }
-  
-/* Adjust padding for navbar items */
-  .navbar-nav {
-    padding-left: 20px; /
-  }
-  
-/* Adjust margin for navbar items */
-  .navbar-nav .nav-item {
     margin-right: 10px;
   }
   
