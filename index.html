@@ -8,13 +8,14 @@
         <!-- Bootstrap CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
         <link rel="stylesheet" href="css/index.css">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"  type='text/css'>
     <title>LD Portfolio BS</title>
 </head>
 <body>
   <!--   Add a navigation bar with links that navigate to the correct section -->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Navbar</a>
+      <a class="navbar-brand" href="#">Leone's Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -24,36 +25,25 @@
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
-            </a>
-            <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Action</a></li>
-              <li><a class="dropdown-item" href="#">Another action</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
+            <a class="nav-link active" aria-current="page" href="#">Work</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+            <a class="nav-link active" aria-current="page" href="#">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">About Me</a>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
+
  <!--  Add a hero section as a jumbotron with picutre, name, and any other information -->
  <div class="p-5 mb-4 bg-body-tertiary rounded-3">
     <div class="container-fluid py-5">
-      <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-      <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the one in previous versions of Bootstrap. Check out the examples below for how you can remix and restyle it to your liking.</p>
-      <button class="btn btn-primary btn-lg" type="button">Example button</button>
+      <h1 class="display-5 fw-bold">Leone Dale</h1>
+      <p class="col-md-8 fs-4">This portfolio will showcase some of my work and the skills I hope to learn throughout my front end web development journey. </p>
+      <!-- <button class="btn btn-primary btn-lg" type="button">About Me</button> -->
     </div>
   </div>
   <!-- Add a work section displaying work in a grid using bootstrap cards display images and a description -->
@@ -106,44 +96,33 @@
     <!-- Close row -->
   
     <!-- Add a skills section listing out the skills expected to be learned from the bootcamp -->
-    <div class="accordion" id="accordionPanelsStayOpenExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-              Accordion Item #1
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
-            <div class="accordion-body">
-              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-              Accordion Item #2
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-              Accordion Item #3
-            </button>
-          </h2>
-          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
-            <div class="accordion-body">
-              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-            </div>
-          </div>
-        </div>
-      </div>
+    <section>
+    <div class="container-fluid">
+    <h2>Skills</h2>
+    <p>By the end of the bootcamp, students will learn the following:</p>
+    <p><h3>HTML (Hypertext Markup Language):</h3></p>
+    <p>Explanation: HTML is the standard markup language used to create and design web pages. It defines the structure of content on a web page using elements such as headings, paragraphs, lists, links, and more.
+    Tip: Learn the basic tags and their purposes (e.g., h1 for headings, p for paragraphs, a for links). Practice creating simple web pages to understand how HTML elements work together.
+    </p>
+    
+    <p><h3>CSS (Cascading Style Sheets):</h3></p>`
+    <p>Explanation: CSS is a style sheet language used for describing the presentation of a web page written in HTML. It controls the layout, colors, fonts, and other visual aspects of a website.
+    Tip: Focus on understanding CSS selectors and how they target HTML elements. Experiment with different properties and values to style your web pages creatively. Learn about CSS frameworks like Bootstrap for faster development.
+    </p>
+
+    <p><h3>JavaScript: </h3></p>
+    <p>Explanation: JavaScript is a programming language that enables interactive and dynamic behavior on web pages. It can be used to manipulate HTML content, handle events, validate forms, create animations, and more.
+    Tip: Start with basic JavaScript concepts such as variables, data types, operators, and functions. Practice solving coding challenges to improve problem-solving skills. Explore JavaScript frameworks and libraries like jQuery for efficient development.
+    </p>    
+
+    <p><h3>React:</h3></p>
+    <p>Explanation: React is a JavaScript library for building user interfaces. It allows developers to create reusable UI components and manage the state of an application efficiently. React follows a component-based architecture, making it easy to develop complex web applications.
+    Tip: Begin by understanding the core concepts of React, including components, props, state, and lifecycle methods. Experiment with JSX, which allows you to write HTML-like syntax within JavaScript. Practice building small React applications and gradually move on to more complex projects. Explore React's ecosystem, including tools like React Router for routing and Redux for state management.
+    </p>
+  </div>
+</section>
+
+
  <!--  Add an about / contact section in the same row -->
  <div class="card mb-3" class="container-fluid">
     <div class="row g-0">
@@ -152,123 +131,59 @@
       </div>
       <div class="col-md-8">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-          <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">About Me</h5>
+          <p class="card-text">Hello, I'm Leone Dale, an aspiring front-end web developer from Quainton, Buckinghamshire.
+            Currently, I'm immersed in a rigorous Bootcamp, eagerly absorbing knowledge to thrive in this dynamic field.
+
+            When I'm coding, I'm accompanied by my feline friend, Bumble, who is my loyal coding companion. 
+            
+            Beyond coding, I love movies, traveling, and animals. My goal is to become a junior developer by year-end, fueled by curiosity and a hunger for learning.
+            
+            Join me on this exciting journey as I turn my passion for coding into impactful contributions in web development.</p>
+
+          <p class="card-text"><small class="text-body-secondary">Last updated 2024</small></p>
         </div>
       </div>
     </div>
   </div>
   <!-- Add a footer section with hover effects on links and buttons (shadow)-->
-  <!-- Remove the container if you want to extend the Footer to full width. -->
-<div class="container-fluid">
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Footer Template</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  </head>
+  <body>
+    
+    <!-- Your content goes here -->
+    
     <!-- Footer -->
-    <footer class="text-center text-black">
-      <!-- Grid container -->
+    <footer class="text-center">
       <div class="container">
-        <!-- Section: Links -->
-        <section class="mt-5">
-          <!-- Grid row-->
-          <div class="row text-center d-flex justify-content-center pt-5">
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">About us</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">Products</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">Awards</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">Help</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-  
-            <!-- Grid column -->
-            <div class="col-md-2">
-              <h6 class="text-uppercase font-weight-bold">
-                <a href="#!" class="text-black">Contact</a>
-              </h6>
-            </div>
-            <!-- Grid column -->
-          </div>
-          <!-- Grid row-->
-        </section>
-        <!-- Section: Links -->
-  
-        <hr class="my-5" />
-  
-        <!-- Section: Text -->
-        <section class="mb-5">
-          <div class="row d-flex justify-content-center">
-            <div class="col-lg-8">
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-                distinctio earum repellat quaerat voluptatibus placeat nam,
-                commodi optio pariatur est quia magnam eum harum corrupti
-                dicta, aliquam sequi voluptate quas.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!-- Section: Text -->
-  
-        <!-- Section: Social -->
-        <section class="text-center mb-5">
-          <a href="" class="text-black me-4">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-google"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-instagram"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="" class="text-black me-4">
-            <i class="fab fa-github"></i>
-          </a>
-        </section>
-        <!-- Section: Social -->
+        <p>&copy; 2024 LEONE DALE. All rights reserved.</p>
+        <!-- Social media icons -->
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-instagram"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="fab fa-github"></i></a></li>
+        </ul>
       </div>
-      <!-- Grid container -->
-  
-      <!-- Copyright -->
-      <div
-           class="text-center p-3"
-           style="background-color: rgba(0, 0, 0, 0.2)"
-           >
-        © 2020 Copyright:
-        <a class="text-white" href="#"
-           >Leone Dale</a>
-      </div>
-      <!-- Copyright -->
     </footer>
-    <!-- Footer -->
-  </div>
-  <!-- End of .container -->
+    
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+  </html>
+  
   </body>
 </html>
